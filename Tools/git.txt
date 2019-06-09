@@ -1,0 +1,36 @@
+常用概念
+    Workspace：工作区
+    Index / Stage：暂存区
+    Repository：仓库区（或本地仓库）
+    Remote：远程仓库
+新建代码库
+    新建
+        init
+        init [project-name]
+    仓库下载
+        clone [url/ssh]
+配置
+    显示
+        config --list
+    编辑
+        config [--global] -e 
+    用户信息
+        config --global user.name "[name]"
+        config --global user.email "[email]"
+增加
+    add *
+    add [file]
+    add [dir]
+    add -p :确认
+删除
+    删除工作区文件: rm [file]
+    停止追踪文件: rm --cached [file]
+    改变文件名: rm mv [origin] [new]
+commit
+    -m [msg]
+    -a 提交上次commit之后的变化
+    -v 显示diff
+    --amend -m 改写上次提交信息
+branch
+    列出本地分支
+    -r 列出远程分支

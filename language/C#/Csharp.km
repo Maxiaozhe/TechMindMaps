@@ -1,0 +1,259 @@
+{
+    "root": {
+        "data": {
+            "id": "buoi53x9fxc0",
+            "created": 1560012114767,
+            "text": "C#新特性"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "buoit9sizs80",
+                    "created": 1560014008281,
+                    "text": "C#6",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "buoit9slz8o0",
+                            "created": 1560014008286,
+                            "text": "只读属性",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buoit9smsh40",
+                                    "created": 1560014008288,
+                                    "text": "public string Name{get;}"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buoit9so0w80",
+                                    "created": 1560014008290,
+                                    "text": "声明时赋值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buoit9sojs00",
+                                            "created": 1560014008291,
+                                            "text": "public string Name{get;}=\"Name\";"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buoit9sorfk0",
+                                    "created": 1560014008291,
+                                    "text": "只可在构造函数中设置"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buoit9sq1ko0",
+                                    "created": 1560014008293,
+                                    "text": "主构造器"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "buoit9spl9c0",
+                            "created": 1560014008293,
+                            "text": "Using Static"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoit9sq6200",
+                            "created": 1560014008294,
+                            "text": "Null 条件运算符?.",
+                            "note": "相当于\nif(person!=null)\n\tvar name=person.FirstName;",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buoit9sqyiw0",
+                                    "created": 1560014008295,
+                                    "text": "var name=person?.FirstName;"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "buoit9srthk0",
+                            "created": 1560014008296,
+                            "text": "$\"{变量名}\""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoit9srvoo0",
+                            "created": 1560014008296,
+                            "text": "nameOf"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoit9ss5sw0",
+                            "created": 1560014008297,
+                            "text": "异常过滤器 Exception Filter"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "buoit9sseb40",
+                    "created": 1560014008297,
+                    "text": "C#7",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "buoj60yjaw80",
+                            "created": 1560015007788,
+                            "text": "out变量"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoj60yjxoo0",
+                            "created": 1560015007789,
+                            "text": "Tuples"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buoj60ykfk80",
+                                    "created": 1560015007790,
+                                    "text": "var tuple=(1,2);"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buoj60ykcpk0",
+                                    "created": 1560015007790,
+                                    "text": "var tuple2 = ValueTuple.Create(1, 2);"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buoj60ykwzs0",
+                                    "created": 1560015007791,
+                                    "text": "var tuple3 = new ValueTuple<int, int>(1, 2); "
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "buoj60ylxcg0",
+                            "created": 1560015007792,
+                            "text": "解构"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buoj60ylscw0",
+                                    "created": 1560015007792,
+                                    "text": "var (a,b)=getTuple();"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buoj60ymgcg0",
+                                    "created": 1560015007793,
+                                    "text": "var (Name,Age)=new Person('name',24)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "buoj60ymfkw0",
+                            "created": 1560015007793,
+                            "text": "is表达式加强"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoj60ymeds0",
+                            "created": 1560015007793,
+                            "text": "switch加强"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoj60ymfr40",
+                            "created": 1560015007793,
+                            "text": "新增异步返回类型(ValueTask)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "buoj60yncf40",
+                            "created": 1560015007795,
+                            "text": "数字表达式增强"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buoj60yndkw0",
+                                    "created": 1560015007796,
+                                    "text": "二进制(0b001)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buoj60yo3q00",
+                                    "created": 1560015007796,
+                                    "text": "数字分割(0b0001_0000)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "buoit9sso6g0",
+                    "created": 1560014008298,
+                    "text": "C#8"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "wire",
+    "version": "1.4.43"
+}

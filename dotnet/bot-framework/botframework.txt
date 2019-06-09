@@ -1,0 +1,37 @@
+BotFrameWork
+	チャットボット
+		特徴
+			会話型プログラム
+			AIサービスを利用する
+			メッセージプラットフォームを介す
+			会話型インタフェース(CUI)
+				自然言語処理（NPL）
+				音声
+				テキスト
+		利点
+			自然な会話形式
+			導入容易
+			様々なディバイス対応
+			プラットフォーム依存しない
+		アーキテクチャ
+			Channel
+				SMS
+				Email
+				WebChat
+					WebChat Control
+				Skype
+				Messenger
+				Slack
+				Line
+				その他
+			Bot Connector
+				Routing
+				State Data(32Kまで)
+				Dialog
+					Bot State Service　*廃止予定
+				Activity
+			ChatBot
+				会話をガイドし管理する
+				ユーザーインターフェース層
+				会話の管理（Bot Frameworkを支援する）
+				Dialogの結果応答するロジックを記述

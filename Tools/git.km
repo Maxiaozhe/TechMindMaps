@@ -1,0 +1,314 @@
+{
+    "root": {
+        "data": {
+            "id": "bupdmuzwt7k0",
+            "created": 1560100960298,
+            "text": "中心主题"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bupdn4tyzts0",
+                    "created": 1560100981707,
+                    "text": "常用概念"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4u5bqo0",
+                            "created": 1560100981718,
+                            "text": "Workspace：工作区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4u848g0",
+                            "created": 1560100981722,
+                            "text": "Index / Stage：暂存区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4u8jco0",
+                            "created": 1560100981723,
+                            "text": "Repository：仓库区（或本地仓库）"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4ud4p40",
+                            "created": 1560100981731,
+                            "text": "Remote：远程仓库"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bupdn4ueb480",
+                    "created": 1560100981733,
+                    "text": "新建代码库"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4ufi4g0",
+                            "created": 1560100981735,
+                            "text": "新建"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bupdn4ugrm80",
+                                    "created": 1560100981737,
+                                    "text": "init"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bupdn4ui5i80",
+                                    "created": 1560100981739,
+                                    "text": "init [project-name]"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4ukm5c0",
+                            "created": 1560100981744,
+                            "text": "仓库下载"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bupdn4uo2dc0",
+                                    "created": 1560100981749,
+                                    "text": "clone [url/ssh]"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bupdn4uou2o0",
+                    "created": 1560100981750,
+                    "text": "配置"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4uq1280",
+                            "created": 1560100981752,
+                            "text": "显示"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bupdn4ur7mw0",
+                                    "created": 1560100981754,
+                                    "text": "config --list"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4url480",
+                            "created": 1560100981755,
+                            "text": "编辑"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bupdn4usea00",
+                                    "created": 1560100981756,
+                                    "text": "config [--global] -e "
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4utjmg0",
+                            "created": 1560100981758,
+                            "text": "用户信息"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bupdn4utua00",
+                                    "created": 1560100981759,
+                                    "text": "config --global user.name \"[name]\""
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bupdn4uungo0",
+                                    "created": 1560100981760,
+                                    "text": "config --global user.email \"[email]\""
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bupdn4uv3s00",
+                    "created": 1560100981761,
+                    "text": "增加"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4uvog80",
+                            "created": 1560100981762,
+                            "text": "add *"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uwlsw0",
+                            "created": 1560100981763,
+                            "text": "add [file]"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uw8o00",
+                            "created": 1560100981763,
+                            "text": "add [dir]"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uwfnc0",
+                            "created": 1560100981763,
+                            "text": "add -p :确认"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bupdn4uwz3s0",
+                    "created": 1560100981764,
+                    "text": "删除"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4ux9800",
+                            "created": 1560100981765,
+                            "text": "删除工作区文件: rm [file]"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uxv4g0",
+                            "created": 1560100981766,
+                            "text": "停止追踪文件: rm --cached [file]"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uyca00",
+                            "created": 1560100981766,
+                            "text": "改变文件名: rm mv [origin] [new]"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bupdn4uyac00",
+                    "created": 1560100981766,
+                    "text": "commit"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4uyyd40",
+                            "created": 1560100981767,
+                            "text": "-m [msg]"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uz9cw0",
+                            "created": 1560100981768,
+                            "text": "-a 提交上次commit之后的变化"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uz2uo0",
+                            "created": 1560100981768,
+                            "text": "-v 显示diff"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4uz08o0",
+                            "created": 1560100981768,
+                            "text": "--amend -m 改写上次提交信息"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bupdn4uza3s0",
+                    "created": 1560100981768,
+                    "text": "branch"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bupdn4uzxdk0",
+                            "created": 1560100981769,
+                            "text": "列出本地分支"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bupdn4v0n1k0",
+                            "created": 1560100981770,
+                            "text": "-r 列出远程分支"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

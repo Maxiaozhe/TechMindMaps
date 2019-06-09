@@ -1,0 +1,354 @@
+{
+    "root": {
+        "data": {
+            "id": "buk2sswq3l40",
+            "created": 1559562593945,
+            "text": "BotFrameWork"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "buk2tvnygkw0",
+                    "created": 1559562678309,
+                    "text": "チャットボット",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "buk40olwmxs0",
+                            "created": 1559566032607,
+                            "text": "特徴",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buk2ua130ew0",
+                                    "created": 1559562709578,
+                                    "text": "会話型プログラム",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buk2uwha08o0",
+                                    "created": 1559562758446,
+                                    "text": "AIサービスを利用する",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buk2ui3chfs0",
+                                    "created": 1559562727129,
+                                    "text": "メッセージプラットフォームを介す",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buk2vrtr8l40",
+                                    "created": 1559562826681,
+                                    "text": "会話型インタフェース(CUI)",
+                                    "expandState": "expand",
+                                    "layout": null
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buk2w5uedyg0",
+                                            "created": 1559562857195,
+                                            "text": "自然言語処理（NPL）",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk2wrgagdc0",
+                                            "created": 1559562904231,
+                                            "text": "音声",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk2x70ha0o0",
+                                            "created": 1559562938103,
+                                            "text": "テキスト",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "buk2y83wa800",
+                            "created": 1559563018851,
+                            "text": "利点",
+                            "expandState": "collapse",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buk2ybk54o00",
+                                    "created": 1559563026364,
+                                    "text": "自然な会話形式",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buk2z2kabfk0",
+                                    "created": 1559563085145,
+                                    "text": "導入容易",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buk3zm7rsu80",
+                                    "created": 1559565949034,
+                                    "text": "様々なディバイス対応",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "buk406xrrv40",
+                                    "created": 1559565994142,
+                                    "text": "プラットフォーム依存しない",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "buk4511qey00",
+                            "created": 1559566373142,
+                            "text": "アーキテクチャ",
+                            "layout": null,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buk4777bh200",
+                                    "created": 1559566543268,
+                                    "text": "Channel",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buk49vz87680",
+                                            "created": 1559566753927,
+                                            "text": "SMS",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4a0pwvkw0",
+                                            "created": 1559566764248,
+                                            "text": "Email",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4a4vtxpc0",
+                                            "created": 1559566773313,
+                                            "text": "WebChat",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buk4cv9o6zk0",
+                                                    "created": 1559566987474,
+                                                    "text": "WebChat Control",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4aaw6nbs0",
+                                            "created": 1559566786395,
+                                            "text": "Skype",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4afbrq6o0",
+                                            "created": 1559566796044,
+                                            "text": "Messenger",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4bxx3dio0",
+                                            "created": 1559566914880,
+                                            "text": "Slack",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4c2mou3k0",
+                                            "created": 1559566925135,
+                                            "text": "Line",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4c6xctkw0",
+                                            "created": 1559566934487,
+                                            "text": "その他",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buk47nlqgrc0",
+                                    "created": 1559566578970,
+                                    "text": "Bot Connector",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buk4dymrvcg0",
+                                            "created": 1559567073161,
+                                            "text": "Routing",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4em585dk0",
+                                            "created": 1559567124344,
+                                            "text": "State Data(32Kまで)",
+                                            "layout": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4fswlnu80",
+                                            "created": 1559567217423,
+                                            "text": "Dialog",
+                                            "expandState": "expand",
+                                            "layout": null
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "buk4gsf24740",
+                                                    "created": 1559567294727,
+                                                    "text": "Bot State Service　*廃止予定",
+                                                    "layout": null
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4i28c2600",
+                                            "created": 1559567394452,
+                                            "text": "Activity"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buk46xb2xi80",
+                                    "created": 1559566521728,
+                                    "text": "ChatBot",
+                                    "layout": null,
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buk4nn2me480",
+                                            "created": 1559567831640,
+                                            "text": "会話をガイドし管理する"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4ou7ywbk0",
+                                            "created": 1559567925565,
+                                            "text": "ユーザーインターフェース層"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4pcytfgg0",
+                                            "created": 1559567966370,
+                                            "text": "会話の管理（Bot Frameworkを支援する）"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buk4q3u94nc0",
+                                            "created": 1559568024867,
+                                            "text": "Dialogの結果応答するロジックを記述"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
