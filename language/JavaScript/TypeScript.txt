@@ -1,0 +1,55 @@
+TypeScript
+	基本类型
+		boolean
+		number
+			二进制(let binNum:number=0b1010)
+			8进制(let octNum:number=0o744)
+			16进制(let hexNum:number=0xf00d)
+		string
+			单引号
+			双引号
+			反引号 `hello,${ name }'
+		array
+			1.类型[] :number[]
+			2.泛型　 :Array<number>
+			3.元组   :let x :[string,number]=['A',0]
+		enum
+		any
+			1.移除类型检查
+			2.调用任意方法(与object不同)
+		空值
+			void
+			null
+			undefined
+		never
+			表示永不存在的值的类型
+	类型断言
+		<type>
+		as type
+	变量声明
+		var
+		let
+		const
+	解构
+		解构数组
+		交换
+		函数参数
+		...语法
+		对象解构
+		属性重命名
+		缺省值
+		函数声明
+	展开
+		数组展开
+		对象展开
+			展开的限制
+				1.仅限于本身可枚举属性
+				2.会丢失方法
+				3.不允许展开泛型函数的类型参数
+	接口
+		可选属性(T?)
+		只读属性(readonly)
+		不可变数组(ReadonlyArray<T>)
+		索引签名
+		函数类型
+		索引类型

@@ -1,0 +1,507 @@
+{
+    "root": {
+        "data": {
+            "id": "bun2p5kl17k0",
+            "created": 1559866987922,
+            "text": "TypeScript"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bun2qf7jsjs0",
+                    "created": 1559867087266,
+                    "text": "基本类型",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bun2qf7k6b40",
+                            "created": 1559867087267,
+                            "text": "boolean",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun2qf7ko7s0",
+                            "created": 1559867087268,
+                            "text": "number",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun4vszxcko0",
+                                    "created": 1559873151321,
+                                    "text": "二进制(let binNum:number=0b1010)",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun4vszxj6w0",
+                                    "created": 1559873151321,
+                                    "text": "8进制(let octNum:number=0o744)",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun4vszyd9c0",
+                                    "created": 1559873151322,
+                                    "text": "16进制(let hexNum:number=0xf00d)",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bun2qf7laj40",
+                            "created": 1559867087269,
+                            "text": "string",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun4xwqgk200",
+                                    "created": 1559873316184,
+                                    "text": "单引号",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun4xwqhbj40",
+                                    "created": 1559873316185,
+                                    "text": "双引号",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun4xwqhxsg0",
+                                    "created": 1559873316186,
+                                    "text": "反引号 `hello,${ name }'",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bun2qf7lw8o0",
+                            "created": 1559867087270,
+                            "text": "array",
+                            "expandState": "expand",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun51muwgkw0",
+                                    "created": 1559873608141,
+                                    "text": "1.类型[] :number[]",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun51muw8jk0",
+                                    "created": 1559873608141,
+                                    "text": "2.泛型　 :Array<number>",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun51muwbw80",
+                                    "created": 1559873608141,
+                                    "text": "3.元组   :let x :[string,number]=['A',0]",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bun2qf7md1k0",
+                            "created": 1559867087270,
+                            "text": "enum",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun2qf7mml40",
+                            "created": 1559867087271,
+                            "text": "any",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun57aao2zs0",
+                                    "created": 1559874050981,
+                                    "text": "1.移除类型检查",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun57aanmwo0",
+                                    "created": 1559874050982,
+                                    "text": "2.调用任意方法(与object不同)",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bun2qf7n6zk0",
+                            "created": 1559867087272,
+                            "text": "空值",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun59n2t5ag0",
+                                    "created": 1559874235533,
+                                    "text": "void",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun59n2u9mo0",
+                                    "created": 1559874235534,
+                                    "text": "null",
+                                    "layout": null
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "bun59n2uvag0",
+                                    "created": 1559874235535,
+                                    "text": "undefined",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bun5a8d1mwg0",
+                            "created": 1559874281864,
+                            "text": "never",
+                            "layout": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun5bcut6ug0",
+                                    "created": 1559874370009,
+                                    "text": "表示永不存在的值的类型",
+                                    "layout": null
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bun5c6bqa8o0",
+                    "created": 1559874434159,
+                    "text": "类型断言",
+                    "layout": null,
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bun5fnoftvk0",
+                            "created": 1559874707025,
+                            "text": "<type>",
+                            "expandState": "expand",
+                            "note": "let len:number=(<string> anyVal).length;",
+                            "layout": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5fnog8v40",
+                            "created": 1559874707026,
+                            "text": "as type",
+                            "expandState": "expand",
+                            "note": "let len:number=(anyVal as string).length;",
+                            "layout": null
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bun5xy89d4g0",
+                    "created": 1559876140547,
+                    "text": "变量声明",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bun5xy8a6wg0",
+                            "created": 1559876140548,
+                            "text": "var"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8a7e00",
+                            "created": 1559876140548,
+                            "text": "let"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8agmw0",
+                            "created": 1559876140549,
+                            "text": "const"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bun5xy8binc0",
+                    "created": 1559876140550,
+                    "text": "解构",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bun5xy8b1200",
+                            "created": 1559876140550,
+                            "text": "解构数组",
+                            "note": "let x=[1,\"aaa\"];\nlet [a,b]=x;"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun61luyatc0",
+                            "created": 1559876427077,
+                            "text": "交换",
+                            "note": "//swap\nlet a='a'\nlet b='b';\n[a,b]=[b,a];"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8bb740",
+                            "created": 1559876140550,
+                            "text": "函数参数",
+                            "note": "function foo([a ,b]:[number,string]){\n\tconsole.log(a,b);\n}"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8bn0o0",
+                            "created": 1559876140551,
+                            "text": "...语法",
+                            "note": "let[a,...b]=[1,2,3,4,5,6];"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8bvzs0",
+                            "created": 1559876140551,
+                            "text": "对象解构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8cjyw0",
+                            "created": 1559876140552,
+                            "text": "属性重命名"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8da5k0",
+                            "created": 1559876140553,
+                            "text": "缺省值"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8cy740",
+                            "created": 1559876140553,
+                            "text": "函数声明"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bun5xy8dey00",
+                    "created": 1559876140554,
+                    "text": "展开",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bun5xy8ebco0",
+                            "created": 1559876140555,
+                            "text": "数组展开",
+                            "note": "let a=[1,2,3];\nlet b=[6,7];\nlet c=[0,...a,4,5,...b];\n"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun5xy8ea000",
+                            "created": 1559876140555,
+                            "text": "对象展开",
+                            "note": "let defalue={name:'',age:24};\nlet b={name:'tanaka',...default};\n"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bun6nbrtfi80",
+                                    "created": 1559878129132,
+                                    "text": "展开的限制",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bun6onj6bjk0",
+                                            "created": 1559878233095,
+                                            "text": "1.仅限于本身可枚举属性"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bun6onj7z5s0",
+                                            "created": 1559878233097,
+                                            "text": "2.会丢失方法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bun6onj81jc0",
+                                            "created": 1559878233097,
+                                            "text": "3.不允许展开泛型函数的类型参数"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "bun70tkr9rs0",
+                    "created": 1559879186621,
+                    "text": "接口",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bun70tks7340",
+                            "created": 1559879186622,
+                            "text": "可选属性(T?)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun70tkt1tc0",
+                            "created": 1559879186624,
+                            "text": "只读属性(readonly)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun70tkt8280",
+                            "created": 1559879186624,
+                            "text": "不可变数组(ReadonlyArray<T>)"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun70tku6o80",
+                            "created": 1559879186626,
+                            "text": "索引签名"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun70tkudts0",
+                            "created": 1559879186626,
+                            "text": "函数类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "bun70tkv5lc0",
+                            "created": 1559879186627,
+                            "text": "索引类型"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.43"
+}
