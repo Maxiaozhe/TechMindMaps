@@ -1,0 +1,293 @@
+{
+    "root": {
+        "data": {
+            "id": "butan21kp540",
+            "created": 1560498752133,
+            "text": "Buddy_Bot"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "butaoerp68o0",
+                    "created": 1560498858199,
+                    "text": "UserLoginDialog",
+                    "layout_right_offset": {
+                        "x": -19,
+                        "y": 99
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "butbhmt9z0w0",
+                            "created": 1560501148269,
+                            "text": "LoginAsync",
+                            "layout_right_offset": {
+                                "x": 51,
+                                "y": 39
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "butbiiaw5ns0",
+                                    "created": 1560501216814,
+                                    "text": "OAuthPrompt",
+                                    "layout_right_offset": {
+                                        "x": 5,
+                                        "y": 14
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "butbhmtaagg0",
+                                            "created": 1560501148269,
+                                            "text": "CompleteLoginAsync",
+                                            "layout_right_offset": {
+                                                "x": 9,
+                                                "y": 30
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "butbjeiezmo0",
+                                                    "created": 1560501286926,
+                                                    "text": "成功",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "butbj4tno340",
+                                                            "created": 1560501265838,
+                                                            "text": "MainMenuDialog"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "butbjn00j4o0",
+                                                    "created": 1560501305405,
+                                                    "text": "失敗"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "butbk0mmivc0",
+                                                            "created": 1560501335070,
+                                                            "text": "End"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "butapga20g00",
+                    "created": 1560498939849,
+                    "text": "Cancel",
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": -51,
+                        "y": 476
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "butaoernpmw0",
+                            "created": 1560498858196,
+                            "text": "MainMenuDialog",
+                            "layout_right_offset": {
+                                "x": 64,
+                                "y": 72
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "butasd85r5k0",
+                    "created": 1560499168297,
+                    "text": "RootDialog",
+                    "layout_right_offset": {
+                        "x": -12,
+                        "y": -202
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "butatqnyq0g0",
+                            "created": 1560499275915,
+                            "text": "Waterfall",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "butatqnyivs0",
+                                    "created": 1560499275915,
+                                    "text": "ShowMenuAsync",
+                                    "expandState": "expand",
+                                    "layout_right_offset": {
+                                        "x": 4,
+                                        "y": -163
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "butautko7rk0",
+                                            "created": 1560499360610,
+                                            "text": "チャットボット開始",
+                                            "expandState": "expand",
+                                            "layout_right_offset": {
+                                                "x": -52,
+                                                "y": 48
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "butatqnzk3k0",
+                                                    "created": 1560499275916,
+                                                    "text": "ProcessInputAsync",
+                                                    "layout_right_offset": {
+                                                        "x": -131,
+                                                        "y": 75
+                                                    }
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "butbfzlmb340",
+                                                            "created": 1560501019376,
+                                                            "text": "UserLoginDialog",
+                                                            "layout_right_offset": {
+                                                                "x": -85,
+                                                                "y": 78
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "butatqnzin40",
+                                    "created": 1560499275916,
+                                    "text": "LoopMenu"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "butbk7rk5ns0",
+                    "created": 1560501350606,
+                    "text": "MainMenuDialog"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "butbkwz4sw00",
+                            "created": 1560501405483,
+                            "text": "ShowMenuAsync",
+                            "layout_right_offset": {
+                                "x": 5,
+                                "y": -4
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "butble5diq80",
+                                    "created": 1560501442866,
+                                    "text": "何をしたいですか",
+                                    "layout_right_offset": {
+                                        "x": 1,
+                                        "y": 43
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "butblp8lz940",
+                                            "created": 1560501467006,
+                                            "text": "MainMenuDialogChicies",
+                                            "layout_right_offset": {
+                                                "x": -29,
+                                                "y": 77
+                                            }
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "butbmvx8llk0",
+                                                    "created": 1560501559920,
+                                                    "text": "MyScheTaskDialog"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "butbmvx8kdk0",
+                                                    "created": 1560501559920,
+                                                    "text": "UserLoginDialog"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "butbkwz4mag0",
+                            "created": 1560501405483,
+                            "text": "ProcessInputAsync"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "butbkwz51q00",
+                            "created": 1560501405484,
+                            "text": "LoopMenu"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

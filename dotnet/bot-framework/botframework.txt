@@ -35,3 +35,80 @@ BotFrameWork
 				ユーザーインターフェース層
 				会話の管理（Bot Frameworkを支援する）
 				Dialogの結果応答するロジックを記述
+	机器人逻辑
+		ActivityHandler
+			已收到任一活动类型 
+				OnTurnAsync
+			已收到消息活动
+				OnMessageActivityAsync
+			已收到聊天更新活动
+				OnConversationUpdateActivityAsync
+			非机器人成员加入了聊天
+				OnMembersAddedAsync
+			非机器人成员退出了聊天
+				OnMembersRemovedAsync
+			已收到事件活动
+				OnEventActivityAsync
+			已收到令牌响应事件活动
+				OnTokenResponseEventAsync
+			已收到非令牌响应事件活动	
+				OnEventAsync
+			已收到其他活动类型	
+				OnUnrecognizedActivityTypeAsync
+Dialog
+	方法
+		BeginDialogAsync  # 将新对话框推入堆栈并被激活时调用的方法。
+		ContinueDialogAsync #
+		EndDialogAsync
+
+Waterfall
+	ConversationState
+	new dialogs
+
+
+BotState
+	存储：Storage
+		实现IStorage接口
+			MemoryStorage
+			Azure
+				AzureBlobStorage
+				CosmosDbStorage	
+	继承实现
+		UserState			 #处理用户状态对象的持久性
+			key:turnContext  #{channelId}/users/{userId} 
+		ConversationState 	 #使用对话ID作为Key的一部分处理对话状态对象的持久性。
+			key: turnContext #{channelId}/conversations/{conversationId}
+		＃保存所有机器人的状态
+		InspectionState
+		PrivateConversationState #处理对话状态对象的持久性
+			key:turnContext  #{channelId}/conversations/{conversationId}/users/{userId}
+
+EchoBo
+
+此示例使用Azure Bot服务的bot身份验证功能，提供的功能可以更轻松地开发机器人
+对各种身份提供程序（如Azure AD（Azure Active Directory），GitHub，Uber等）的用户进行身份验证。这些更新也
+通过消除某些客户端和渠道的魔术代码验证，采取措施改善用户体验。
+重要的是要注意，用户的令牌不需要存储在机器人中。
+当机器人需要使用或验证用户在任何时候都有有效令牌时，可以发送OAuth提示。
+如果令牌无效，系统将提示他们登录。
+
+此示例演示如何使用Azure Active Directory v2作为OAuth2提供程序并使用Microsoft Graph API。
+Microsoft Graph是一个Microsoft开发人员平台，可连接多个服务和设备。最初于2015年发布，
+Microsoft Graph构建于Office 365 API之上，允许开发人员将其服务与Microsoft产品集成
+包括Windows，Office 365和Azure。
+
+再次调用提示，因为我们需要令牌。原因是：
+1.如果用户已经登录，我们不需要在机器人本地存储令牌并担心
+关于刷新它。我们总是可以再次调用提示来获取令牌。
+我们永远不知道用户需要多长时间才能做出回应。到时候了
+用户响应令牌可能已过期。然后将提示用户再次登录。
+
+没有理由将令牌本地存储在机器人中，因为我们总是可以直接调用
+OAuth提示获取令牌或在需要时获取新令牌。
+
+/// <summary>
+    /// BotConfiguration表示机器人的配置信息。
+    /// </summary>
+    /// <remarks>它通常从磁盘上的.bot文件加载。
+    /// 此类实现用于加密和操作配置的内存表示的方法。</remarks>
+

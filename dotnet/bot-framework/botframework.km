@@ -345,6 +345,186 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "buqi9pcgus00",
+                    "created": 1560215594769,
+                    "text": "机器人逻辑"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "buqi9pcid9s0",
+                            "created": 1560215594772,
+                            "text": "ActivityHandler"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "buqi9pcit3c0",
+                                    "created": 1560215594772,
+                                    "text": "已收到任一活动类型 ",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pcj2co0",
+                                            "created": 1560215594773,
+                                            "text": "OnTurnAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pcjm8w0",
+                                    "created": 1560215594774,
+                                    "text": "已收到消息活动",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pcjork0",
+                                            "created": 1560215594774,
+                                            "text": "OnMessageActivityAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pck7x40",
+                                    "created": 1560215594775,
+                                    "text": "已收到聊天更新活动",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pckzn40",
+                                            "created": 1560215594776,
+                                            "text": "OnConversationUpdateActivityAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pckqxc0",
+                                    "created": 1560215594776,
+                                    "text": "非机器人成员加入了聊天",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pclti80",
+                                            "created": 1560215594777,
+                                            "text": "OnMembersAddedAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pcmfmg0",
+                                    "created": 1560215594778,
+                                    "text": "非机器人成员退出了聊天",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pcm80o0",
+                                            "created": 1560215594778,
+                                            "text": "OnMembersRemovedAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pcm4m80",
+                                    "created": 1560215594778,
+                                    "text": "已收到事件活动",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pcmrmg0",
+                                            "created": 1560215594779,
+                                            "text": "OnEventActivityAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pcn89s0",
+                                    "created": 1560215594780,
+                                    "text": "已收到令牌响应事件活动",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pco9yg0",
+                                            "created": 1560215594781,
+                                            "text": "OnTokenResponseEventAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pcol480",
+                                    "created": 1560215594782,
+                                    "text": "已收到非令牌响应事件活动",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pcp3og0",
+                                            "created": 1560215594783,
+                                            "text": "OnEventAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "buqi9pcp15k0",
+                                    "created": 1560215594783,
+                                    "text": "已收到其他活动类型",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "buqi9pcoyfc0",
+                                            "created": 1560215594783,
+                                            "text": "OnUnrecognizedActivityTypeAsync"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
