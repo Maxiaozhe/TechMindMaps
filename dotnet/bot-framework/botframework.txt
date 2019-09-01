@@ -112,3 +112,27 @@ OAuth提示获取令牌或在需要时获取新令牌。
     /// <remarks>它通常从磁盘上的.bot文件加载。
     /// 此类实现用于加密和操作配置的内存表示的方法。</remarks>
 
+Dialog
+	Choice
+	Prompts
+
+
+ChoiceFactory
+	ForChannel
+		Channelに最適なActivityを生成
+
+ActionTypes
+	OpenUrl
+	ImBack
+	PostBack
+	PlayAudio
+	PlayVideo
+	ShowImage
+	DownloadFile
+	Signin
+	Call
+	Payment
+	MessageBack
+
+		
+		

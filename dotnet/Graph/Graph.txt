@@ -1,0 +1,12 @@
+查询参数
+    $count:检索匹配资源的总数
+    $filter:筛选结果(行)
+    $select:筛选属性（列  
+    $skip:与Top一起实现分页
+    $top:设置结果的页面大小
+    $orderby:排序
+    $expand:检索相关资源
+    $search:根据搜索条件返回结果
+    $format:返回指定格式
+    $skipToken:从跨多页的结果集中检索下一页
+    

@@ -206,6 +206,14 @@
                                     },
                                     {
                                         "data": {
+                                            "id": "buw0wufj11s0",
+                                            "created": 1560775987975,
+                                            "text": "skypeforbusiness"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
                                             "id": "buk4afbrq6o0",
                                             "created": 1559566796044,
                                             "text": "Messenger",
@@ -233,10 +241,81 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "buk4c6xctkw0",
-                                            "created": 1559566934487,
-                                            "text": "その他",
-                                            "layout": null
+                                            "id": "buw0wufdyhk0",
+                                            "created": 1560775987967,
+                                            "text": "console"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufffuo0",
+                                            "created": 1560775987969,
+                                            "text": "cortana"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufflqg0",
+                                            "created": 1560775987970,
+                                            "text": "directline"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufgdu80",
+                                            "created": 1560775987971,
+                                            "text": "email"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufgskg0",
+                                            "created": 1560775987972,
+                                            "text": "emulator"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufhvbk0",
+                                            "created": 1560775987973,
+                                            "text": "facebook"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufhmbk0",
+                                            "created": 1560775987973,
+                                            "text": "groupme"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufi6js0",
+                                            "created": 1560775987974,
+                                            "text": "Kik"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufibhc0",
+                                            "created": 1560775987974,
+                                            "text": "ms Teams"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "buw0wufj4io0",
+                                            "created": 1560775987976,
+                                            "text": "telegram"
                                         },
                                         "children": []
                                     }
@@ -248,7 +327,7 @@
                                     "created": 1559566578970,
                                     "text": "Bot Connector",
                                     "layout": null,
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -473,7 +552,7 @@
                                     "id": "buqi9pcn89s0",
                                     "created": 1560215594780,
                                     "text": "已收到令牌响应事件活动",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -491,7 +570,7 @@
                                     "id": "buqi9pcol480",
                                     "created": 1560215594782,
                                     "text": "已收到非令牌响应事件活动",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -509,7 +588,7 @@
                                     "id": "buqi9pcp15k0",
                                     "created": 1560215594783,
                                     "text": "已收到其他活动类型",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
